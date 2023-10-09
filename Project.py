@@ -1,5 +1,5 @@
 #Import the necessary Packages for this software to run
-import mediapipe
+import mediapipe as mp
 import cv2
 # import RPi.GPIO as GPIO
 
@@ -7,8 +7,8 @@ from collections import Counter
 from module import findnameoflandmark,findpostion,getLeftOrRight,rectangle
 
 #Use MediaPipe to draw the hand framework over the top of hands it identifies in Real-Time
-drawingModule = mediapipe.solutions.drawing_utils
-handsModule = mediapipe.solutions.hands
+drawingModule = mp.solutions.drawing_utils
+handsModule = mp.solutions.hands
 
 #If code is stopped during active it will stay active
 #This may produce a warning if restarted, this
