@@ -1,4 +1,4 @@
-# Control relays by hand gestures using raspberry pi 3/4
+# (Project Wave) Control relays by hand gestures using raspberry pi 3/4
 
 This is a sample program that recognizes hand signs and finger count gestures with a simple MLP using the detected key points with mediapipe and python.(I used raspberry pi 4 model b)
 
